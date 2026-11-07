@@ -1,0 +1,33 @@
+{
+  "input": {
+    "stain": 6.5,
+    "grease": 8.0
+  },
+  "memberships": {
+    "stain": {
+      "low": 0.0,
+      "medium": 0.4,
+      "high": 0.3
+    },
+    "grease": {
+      "low": 0.0,
+      "medium": 0.0,
+      "high": 0.6
+    }
+  },
+  "active_rules": [
+    {
+      "stain_term": "medium",
+      "grease_term": "high",
+      "output_term": "long",
+      "strength": 0.4
+    },
+    {
+      "stain_term": "high",
+      "grease_term": "high",
+      "output_term": "long",
+      "strength": 0.3
+    }
+  ],
+  "wash_time_minutes": 47.81390328151986
+}
